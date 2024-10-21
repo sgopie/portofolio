@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --rich-black: rgb(5, 16, 20);
+    --jet: rgb(46, 47, 47);
+    --emerald: rgb(35, 206, 107);
+    --vivid-sky-blue: rgb(43, 217, 254);
+    --columbia-blue: rgb(191, 209, 229);
+    --dark-red: rgb(163, 13, 13);
+    --heart-red: rgb(255, 7, 7);
+    --wood-brown: rgb(145, 86, 9);
+    --leaf-green: rgb(24, 105, 3);
+  }
