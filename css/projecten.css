@@ -16,15 +16,32 @@
   --leaf-green: rgb(24, 105, 3);
 }
 
+body{
+    background-color: var(--jet);
+    color: var(--emerald);
+}
+
 #icon {
   color: var(--emerald);
+  font-size: xx-large;
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: minmax(100px);
+  grid-auto-rows: minmax(120px);
   grid-gap: 10px;
+}
+
+.projeceten{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+img{
+    width: 500px;
+    height: 250px;
 }
 
 .team-style1 {
